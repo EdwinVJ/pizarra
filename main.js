@@ -1,4 +1,4 @@
-function elementos() {
+// function elementos() {
     let click = false;
     let x = 0;
     let y = 0;
@@ -45,6 +45,8 @@ function elementos() {
         context.closePath();
     }
 
-}
+// }
 
-document.addEventListener('DOMContentLoaded', elementos);
+// cuando el <script> va en el <body>, esto es automático
+// por tanto resulta innecesario escuchar a este evento
+// document.addEventListener('DOMContentLoaded', elementos);

@@ -1,9 +1,12 @@
-* {
+/* es una mala práctica usar selectores '*' */
+html,
+body {
     margin: 0;
     padding: 0;
+    height: 100%;  /* por defecto es la altura del contenido */
 }
 
 .contenido {
-    width: 96%;
-    margin: auto;
+    width: 100%;  /* va a ocupar toda la pantalla */
+    height: 100%;
 }
